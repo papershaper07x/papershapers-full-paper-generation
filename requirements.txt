@@ -12,4 +12,3 @@ python-multipart
 pypdfium2
 Pillow
 python-docx
-sentence-transformers

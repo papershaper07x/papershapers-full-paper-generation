@@ -54,7 +54,6 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "papershapers2")
 INPUT_CSV_PATH = "instructions.csv"
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-EMBED_MODEL = os.getenv("EMBED_MODEL", "sentence-transformers/all-MiniLM-L6-v2")  # MUST match index dim
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
 
 # -------------------------
