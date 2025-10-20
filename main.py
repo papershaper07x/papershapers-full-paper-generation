@@ -17,6 +17,7 @@ from logger import log
 LOG = logging.getLogger("uvicorn.error")
 logging.basicConfig(level=logging.INFO)
 
+
 # -------- App Initialization --------
 app = FastAPI(
     title="Paper Generation Service",
